@@ -6,6 +6,8 @@ body {
     margin: 0;
 }
 
+/* This is the css for the header section */
+
 a {
     font-size: 18px;
     text-decoration: none;
@@ -29,7 +31,7 @@ button {
     padding: 7px 30px 7px 30px;
 }
 
-img {
+.body-img img {
     width: 600px;
     height: 300px;
 }
@@ -73,4 +75,38 @@ img {
     display: flex;
     padding: 100px 150px 100px 150px;
     gap: 25px;
+}
+
+/* This is the css for the information section */
+
+.info-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.info-text {
+    font-size: 18px;
+    color: grey;
+    width: 156px;
+    margin-top: 10px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+
+.img-info {
+   text-align: center;
+}
+
+.img-info img {
+    border: solid 3px rgb(2, 86, 243);
+    border-radius: 10px;
+    display: block;
 }
