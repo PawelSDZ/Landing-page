@@ -99,6 +99,7 @@ button {
     justify-content: center;
     gap: 100px;
     margin-top: 50px;
+    padding-bottom: 100px;
 }
 
 .img-info {
@@ -109,4 +110,30 @@ button {
     border: solid 3px rgb(2, 86, 243);
     border-radius: 10px;
     display: block;
+}
+
+/* This is the css for the quote section */
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 100px;
+    text-align: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 55%;
+    margin: 0 auto;
+}
+
+.quote-author {
+    text-align: right;
+    max-width: 55%;
+    margin: 10px auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1F2937;
 }
