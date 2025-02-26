@@ -137,3 +137,41 @@ button {
     font-weight: bold;
     color: #1F2937;
 }
+
+/* This is the css for the Call to action section */
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 100px 40px 100px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin: 75px auto;
+    width: 50%;
+}
+
+.call-to-action button {
+    border: solid 2px white;
+    margin: 0;
+}
+
+.call-title {
+    font-size: 20px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.call-text {
+    font-size: 15px;
+    color: #E5E7EB;
+}
+
+/* This is the css for the footer */
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 20px;
+}
